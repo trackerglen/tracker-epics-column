@@ -1,13 +1,26 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import TrackerEpicsColumn from '../../src/TrackerEpicsColumn'
 
 class Demo extends Component {
   render() {
     return <div>
       <h1>tracker-epics-column Demo</h1>
-      <Example/>
+      <div style={ {float: "left", width: "400px"} }>
+        <TrackerEpicsColumn
+//          projectId = "24"
+//          projectId = "9280"
+	  projectId = "1042066"
+          includeProjectName = {true}
+	/>
+      </div>
+      <div style={ {float: "left", width: "400px"} }>
+        <TrackerEpicsColumn
+	  projectId = "993188"
+          includeProjectName = {true}
+	/>
+      </div>
     </div>
   }
 }

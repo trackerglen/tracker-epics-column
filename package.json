@@ -1,15 +1,10 @@
 {
   "name": "tracker-epics-column",
-  "version": "1.0.0",
-  "description": "tracker-epics-column React component",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "version": "0.0.1",
+  "description": "Embeddable React component to display Epics from Pivotal Tracker",
+  "main": "lib/TrackerEpicsColumn.js",
+  "module": "es/TrackerEpicsColumn.js",
+  "files": [ "css", "es", "lib", "umd" ],
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
@@ -18,7 +13,21 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "author": "Glen E. Ivey",
+  "homepage": "https://github.com/trackerglen/tracker-epics-column#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trackerglen/tracker-epics-column.git"
+  },
+  "keywords": [
+    "react-component"
+  ],
+
+  "dependencies": {
+    "promise-polyfill": "6.0.2",
+    "whatwg-fetch": "^2.0.3"
+  },
   "peerDependencies": {
     "react": "15.x"
   },
@@ -26,12 +35,5 @@
     "nwb": "0.17.x",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": "",
-  "keywords": [
-    "react-component"
-  ]
+  }
 }
