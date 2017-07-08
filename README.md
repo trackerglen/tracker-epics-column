@@ -27,7 +27,7 @@ npm install tracker-epics-column --save
 ## Usage
 
 ```
-import TrackerEpicsColumn from "TrackerEpicsColumn";
+import TrackerEpicsColumn from "tracker-epics-column";
 
 <TrackerEpicsColumn
   projectId = "1042066"             // required, no default; ID number of project in Pivotal Tracker

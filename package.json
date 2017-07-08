@@ -1,6 +1,6 @@
 {
   "name": "tracker-epics-column",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Embeddable React component to display Epics from Pivotal Tracker",
   "main": "lib/TrackerEpicsColumn.js",
   "module": "es/TrackerEpicsColumn.js",

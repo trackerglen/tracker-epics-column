@@ -3,7 +3,8 @@ export default {
   column: {
     backgroundColor: "#256188",
     width: "330px",
-    fontSize: "16px"
+    fontSize: "16px",
+    textAlign: "left"
   },
   projectName: {
     display: "inline-block",
